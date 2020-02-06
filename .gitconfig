@@ -1,0 +1,33 @@
+[diff]
+	external = /home/mehdi/Documents/git_diff.py
+
+[user]
+	email = Mehdi.Bounabi@Kisio.org
+	name = mbounabi
+
+[alias]
+	a = add
+	c = commit
+	ch = checkout
+	d = diff
+	dc = diff --cached
+	f = fetch
+	p = push
+	l = log --decorate --branches --remotes --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ll = log --decorate --branches --graph --remotes --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --max-count=20
+	r = rebase
+	s = status
+	suu = submodule update --init --recursive
+ 
+[log]
+	decorate=full
+
+[color]
+	branch=auto
+	diff=auto
+	interactive=auto
+	status=auto
+	grep=auto
+
+ [core]
+	excludesfile=/home/mehdi/.gitignore
